@@ -4,8 +4,8 @@ import logging
 
 # Конфигурация API Hyperbolic
 HYPERBOLIC_API_URL = "https://api.hyperbolic.xyz/v1/chat/completions"
-HYPERBOLIC_API_KEY = "$API_KEY"  # Замените на ваш API-ключ
-MODEL = "deepseek-ai/DeepSeek-V3"      # Или укажите нужную модель
+HYPERBOLIC_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ6YWRpcmFuZ2VvcmdpdUBnbWFpbC5jb20iLCJpYXQiOjE3NTEzMTU5OTh9.8xKn72WFB4lRE9tFS6r4ivp83Yf0bpiKboqcdzhj1BU"  # Замените на ваш API-ключ
+MODEL = "meta-llama/Meta-Llama-3.1-405B"      # Или укажите нужную модель
 MAX_TOKENS = 2048
 TEMPERATURE = 0.7
 TOP_P = 0.9
